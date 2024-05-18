@@ -53,7 +53,7 @@ export const myprojects = [
     category: ["react"],
     desc: "Welcome to my portfolio, a dynamic and interactive showcase of my skills and projects as a web developer. Built using React and styled with CSS, this portfolio highlights my proficiency in modern web development technologies.",
     imgpath: "./portfolio.png",
-     link: "",
+     link: "https://myportfolio-73fb8.web.app/",
     github:"https://github.com/ahmedbhyy/portfolio1",
   },
   {
