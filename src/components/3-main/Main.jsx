@@ -72,10 +72,10 @@ export default function Main() {
                   <p className="subtitle">{item.desc}</p>
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
-                      <div className="icon-link"></div>
-                      <div className="icon-github"></div>
+                      <a className="icon-link" href={item.link}></a>
+                      <a className="icon-github" href={item.github}></a>
                     </div>
-                    <a className="link flex" href="dddd">
+                    <a className="link flex" href={item.github}>
                       more
                       <span
                         style={{ alignSelf: "end" }}

@@ -5,7 +5,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "Sup'clubs embodies my dedication to enriching student life and fostering collaboration within educational institutions. Designed specifically for clubs within SUP'COM.",
     imgpath: "./supclubs.png",
-    link: "",
+    link: "https://play.google.com/store/apps/details?id=com.supclubs.supcom",
     github:"https://github.com/ahmedbhyy/supclubs2",
   },
   {
@@ -13,7 +13,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "Developed for a company, this mobile application revolutionizes financial management within the domain of agriculture, offering streamlined solutions to enhance operational efficiency and fiscal accountability.",
     imgpath: "./baraka.png",
-     link: "",
+     link: "https://github.com/ahmedbhyy/bhyapp",
     github:"https://github.com/ahmedbhyy/bhyapp",
   },
   {
@@ -21,7 +21,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "GuardianLock: Face Recognition Car Security 🚗👤 Enhance your car's security with GuardianLock, a Flutter app using advanced face recognition. Only authorized users can access the vehicle, offering an accessible user interface. 🛡️🔐",
     imgpath: "./gothom.png",
-     link: "",
+     link: "https://github.com/ahmedbhyy/gothomhack",
     github:"https://github.com/ahmedbhyy/gothomhack",
   },
   {
@@ -29,7 +29,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "SupBike is the all-in-one app designed to revolutionize the biking experience on our university campus. With SupBike, students, faculty, and staff can easily locate and manage their bikes, ensuring a hassle-free and secure ride every time.",
     imgpath: "./supbike.png",
-     link: "",
+     link: "https://supcom-my.sharepoint.com/personal/ahmed_belhajyahia_supcom_tn/_layouts/15/stream.aspx?id=%2Fpersonal%2Fahmed%5Fbelhajyahia%5Fsupcom%5Ftn%2FDocuments%2FPi%C3%A8ces%20jointes%2Fsupbike%2Ewebm&ct=1715991728399&or=OWA%2DNT%2DMail&cid=e0164773%2D5e03%2D1776%2Dbd91%2D9fcea9e0a620&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E18d13c2f%2D67eb%2D41e6%2D8bd2%2D904f8269aa44",
     github:"https://github.com/ahmedbhyy/supbike",
   },
   {
@@ -37,7 +37,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "Cominos Learn is the ultimate app for parents who want to stay connected with their children’s education and ensure their safety. Combining powerful learning tools with advanced tracking features.",
     imgpath: "./cominos.png",
-     link: "",
+     link: "https://supcom-my.sharepoint.com/personal/ahmed_belhajyahia_supcom_tn/_layouts/15/stream.aspx?id=%2Fpersonal%2Fahmed%5Fbelhajyahia%5Fsupcom%5Ftn%2FDocuments%2FPi%C3%A8ces%20jointes%2Fvideo2%2Ewebm&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E334e8906%2D3297%2D4218%2Dab2f%2Ddf54b1216858&ct=1715991892905&or=OWA%2DNT%2DMail&cid=59039388%2Dc2f4%2D78f9%2Dae2b%2De71cde0f439f&ga=1",
     github:"https://github.com/ahmedbhyy/mutualhack",
   },
   {
@@ -45,7 +45,7 @@ export const myprojects = [
     category: ["flutter"],
     desc: "Banky is the ultimate banking app designed to make managing your finances easy, secure, and convenient. Whether you're handling everyday transactions, saving for the future, or tracking your spending, Banky has you covered",
     imgpath: "./bank.png",
-     link: "",
+     link: "https://drive.google.com/file/d/1ZlgV35_nlPbuYP7IHbfYVyC0dwqwFyRb/view",
     github:"https://github.com/ahmedbhyy/bankpfe",
   },
   {
@@ -54,7 +54,7 @@ export const myprojects = [
     desc: "Welcome to my portfolio, a dynamic and interactive showcase of my skills and projects as a web developer. Built using React and styled with CSS, this portfolio highlights my proficiency in modern web development technologies.",
     imgpath: "./portfolio.png",
      link: "",
-    github:"",
+    github:"https://github.com/ahmedbhyy/portfolio1",
   },
   {
     projecttitle: "Portfolio",
