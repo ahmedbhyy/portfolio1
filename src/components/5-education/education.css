@@ -1,0 +1,106 @@
+main section.left-section-education .icon-education {
+  color: var(--subtitle);
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+
+main section.left-section-education .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+main section.left-section-education .subtitle {
+  color: var(--subtitle);
+  line-height: 1.65rem;
+}
+main section.left-section-education .animation {
+  margin-top: 2rem;
+}
+
+main section.right-section-education.flex {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 2rem;
+}
+main section.right-section-education .card {
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  transition: 0.3s;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.16), 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  height: 400px;
+}
+
+.light main section.right-section-education .card {
+  border: none;
+}
+
+.light main section.right-section-education .card:hover {
+  border: none;
+  background-color: rgba(248, 248, 248);
+}
+
+main section.right-section-education .card img {
+  border-radius: 5px;
+  height: 200px;
+}
+main section.right-section-education .card:hover {
+  border: 1px solid var(--blue);
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+}
+
+main section.right-section-education .card .box {
+  padding: 1rem 0.4rem;
+}
+main section.right-section-education .card .box .title {
+  color: var(--title);
+  text-transform: capitalize;
+  height: 45px;
+}
+main section.right-section-education .card .box .subtitle {
+  color: var(--subtitle);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.1rem;
+  height: 70px;
+}
+
+.card .icon-link {
+  font-size: 1.2rem;
+  color: var(--subtitle);
+  margin-inline: 0.5rem;
+}
+.card .icon-link:hover {
+  font-size: 1.2rem;
+  color: var(--icon-hover);
+  cursor: pointer;
+}
+.card a.link {
+  font-size: 0.9rem;
+  color: var(--blue);
+  margin-right: 12px;
+}
+
+@media (max-width: 600px) {
+  main.flex {
+    flex-direction: column;
+    gap: 2.64rem;
+    align-items: center;
+  }
+  main section.left-section-education.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  main section.left-section-education .animation {
+    display: none;
+  }
+}

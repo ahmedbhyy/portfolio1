@@ -5,16 +5,18 @@ import Lottie from "lottie-react";
 import doneanimation from "../../../src/animation/done.json";
 import contactanimation from "../../../src/animation/contact.json";
 
-
 export default function Contactus() {
   const [state, handleSubmit] = useForm("xayrkzzv");
 
   return (
-    <section className="contactus">
+    <section className="contactus" id="contact">
       <h1 className="title">
         <span className="icon-envelope"></span>Contact us
       </h1>
-      <p className="subtitle">Contact us for more information and Get notified when i publish something new.</p>
+      <p className="subtitle">
+        Contact us for more information and Get notified when i publish
+        something new.
+      </p>
       <div style={{ justifyContent: "space-between" }} className="flex">
         <form onSubmit={handleSubmit} className="">
           <div className="flex">
@@ -59,7 +61,7 @@ export default function Contactus() {
         </form>
         <div className="animation">
           <Lottie
-           className="contactanimation"
+            className="contactanimation"
             style={{ height: "450px" }}
             animationData={contactanimation}
           />

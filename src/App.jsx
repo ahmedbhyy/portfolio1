@@ -2,6 +2,8 @@ import HERO from "./components/2-hero/hero";
 import Header from "./components/1-header/Header";
 import Main from "./components/3-main/Main";
 import Contactus from "./components/4-contact/contact";
+import Education from "./components/5-education/education.jsx";
+
 import Footer from "./components/footer/footer";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -25,10 +27,11 @@ function App() {
       <div className="divider" />
       <Main />
       <div className="divider" />
+      <Education />
+      <div className="divider" />
       <Contactus />
       <div className="divider" />
       <Footer />
-
       <a
         style={{ opacity: showscrollBTN ? 1 : 0, transition: "1s" }}
         href="#up"

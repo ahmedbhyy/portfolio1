@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function HERO() {
   const lottieref = useRef();
   return (
-    <section className="hero flex">
+    <section className="hero flex" id="about">
       <div className="left-section">
         <div className="parent-avatar flex">
           <motion.img
