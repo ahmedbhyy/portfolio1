@@ -1,5 +1,35 @@
 export const myprojects = [
-  
+  {
+    projecttitle: "Fortes femenao App",
+    category: ["flutter"],
+    desc: "Fortes Feminae is a collaborative e-learning platform designed to empower women through accessible and engaging learning experiences.",
+    imgpath: "./fortes2.png",
+    link: "https://drive.google.com/file/d/1ZIVePZGmuVaS75r2qLhJZon229pTzkbj/view",
+    github:"https://github.com/ahmedbhyy/fortess_femenao",
+  }, 
+    {
+    projecttitle: "Fortes femenao Website",
+    category: ["react"],
+    desc: "Fortes Feminae is a collaborative e-learning platform designed to empower women through accessible and engaging learning experiences.",
+    imgpath: "./fortes1.png",
+    link: "https://drive.google.com/file/d/1Dxh6ed0m_jRvS8HxdpL1OKci_J38zhRN/view",
+    github:"https://github.com/ahmedbhyy/fortess_femenao",
+  },
+  {
+    projecttitle: "ICF Tunisie",
+    category: ["css"],
+    desc: "I developed the official website for ICF Tunisie, a company specializing in the design and manufacture of tools and cutting forms for the soft materials printing industry.",
+    imgpath: "./icf.png",
+     link: "https://icftunisie.com/",
+    github:"https://github.com/ahmedbhyy/icfproject-main",
+  },{
+    projecttitle: "Maison Jerbi",
+    category: ["css"],
+    desc: "I created the official website for Maison Jerbi, a charming guest house located in Henchir Goret, Nabeul.",
+    imgpath: "./maisonjerbi.png",
+     link: "https://maisonjerbi.com/",
+    github:"https://github.com/ahmedbhyy/maisonjerbi",
+  },
   {
     projecttitle: "Sup'Clubs App",
     category: ["flutter"],
@@ -56,6 +86,7 @@ export const myprojects = [
      link: "https://myportfolio-73fb8.web.app/",
     github:"https://github.com/ahmedbhyy/portfolio1",
   },
+
   {
     projecttitle: "Portfolio",
     category: ["css"],
@@ -64,4 +95,5 @@ export const myprojects = [
      link: "https://ahmedbhy.vercel.app/",
     github:"https://github.com/ahmedbhyy/portfolio",
   },
+  
 ];
