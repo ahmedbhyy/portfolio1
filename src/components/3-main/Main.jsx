@@ -66,7 +66,12 @@ export default function Main() {
                 key={item.imgpath}
                 className="card"
               >
-                <img width={270} src={item.imgpath} alt="" />
+                <img
+                  width={270}
+                  src={item.imgpath}
+                  alt=""
+                  style={{ objectFit: "contain" }}
+                />
                 <div style={{ width: "270px" }} className="box">
                   <h1 className="title">{item.projecttitle}</h1>
                   <p className="subtitle">{item.desc}</p>

@@ -1,4 +1,20 @@
 export const myprojects = [
+   {
+    projecttitle: "Event Ease App",
+    category: ["flutter"],
+    desc: "Event Ease is an innovative platform designed for event management.",
+    imgpath: "./eventease.png",
+    link: "https://drive.google.com/drive/folders/1of0cqTmzWHOTJPBNc9FCA8nEiaQHqKix?usp=sharing",
+    github:"https://github.com/ahmedbhyy/eventease",
+  }, 
+  {
+    projecttitle: "Errayen App",
+    category: ["flutter"],
+    desc: "Errayen App is a comprehensive platform designed to streamline the management of real estate agencies.",
+    imgpath: "./errayen.png",
+    link: "https://github.com/ahmedbhyy/errayenprogram",
+    github:"https://github.com/ahmedbhyy/errayenprogram",
+  }, 
   {
     projecttitle: "Fortes femenao App",
     category: ["flutter"],
