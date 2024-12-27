@@ -38,6 +38,14 @@ export const myprojects = [
     imgpath: "./icf.png",
      link: "https://icftunisie.com/",
     github:"https://github.com/ahmedbhyy/icfproject-main",
+  },
+  {
+    projecttitle: "Errayen",
+    category: ["css"],
+    desc: "Developed the official website for Errayen, a real estate company, highlighting their properties and services with a user-friendly design.",
+    imgpath: "./errayensite.png",
+     link: "https://errayen.com/",
+    github:"https://github.com/sanaanidhal/Errayen-vite",
   },{
     projecttitle: "Maison Jerbi",
     category: ["css"],
