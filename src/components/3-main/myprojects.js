@@ -23,6 +23,14 @@ export const myprojects = [
     link: "https://drive.google.com/file/d/1ZIVePZGmuVaS75r2qLhJZon229pTzkbj/view",
     github:"https://github.com/ahmedbhyy/fortess_femenao",
   }, 
+   {
+    projecttitle: "AmericanWolf",
+    category: ["flutter"],
+    desc: "I developed a stock management and manufacturing order program for a protein production industry.",
+    imgpath: "./americanwolf.png",
+    link: "https://github.com/ahmedbhyy/americanwolf",
+    github:"https://github.com/ahmedbhyy/americanwolf",
+  }, 
     {
     projecttitle: "Fortes femenao Website",
     category: ["react"],
