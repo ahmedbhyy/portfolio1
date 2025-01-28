@@ -6,6 +6,14 @@ export const myprojects = [
     imgpath: "./eventease.png",
     link: "https://drive.google.com/drive/folders/1of0cqTmzWHOTJPBNc9FCA8nEiaQHqKix?usp=sharing",
     github:"https://github.com/ahmedbhyy/eventease",
+  },
+  {
+    projecttitle: "Complete Nutrition",
+    category: ["flutter"],
+    desc: "I developed a complete software solution for nutrition businesses, featuring sales management, inventory tracking.",
+    imgpath: "./completevente.png",
+    link: "https://github.com/ahmedbhyy/americanwolfvente",
+    github:"https://github.com/ahmedbhyy/americanwolfvente",
   }, 
   {
     projecttitle: "Errayen App",
@@ -38,6 +46,14 @@ export const myprojects = [
     imgpath: "./fortes1.png",
     link: "https://drive.google.com/file/d/1Dxh6ed0m_jRvS8HxdpL1OKci_J38zhRN/view",
     github:"https://github.com/ahmedbhyy/fortess_femenao",
+  },
+   {
+    projecttitle: "Cocos Website",
+    category: ["react"],
+    desc: "I developed a website for Cocos Café, designed to showcase their menu in an appealing and user-friendly way, allowing customers to easily explore their offerings online.",
+    imgpath: "./cocos.png",
+    link: "https://cocos.tn/",
+    github:"https://github.com/sanaanidhal/Cocos-react",
   },
   {
     projecttitle: "ICF Tunisie",
