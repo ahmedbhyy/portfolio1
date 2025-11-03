@@ -39,6 +39,14 @@ export default function Main() {
         </button>
         <button
           onClick={() => {
+            handleclick("AI");
+          }}
+          className={currentActive === "AI" ? "active" : null}
+        >
+          AI
+        </button>
+        <button
+          onClick={() => {
             handleclick("css");
           }}
           className={currentActive === "css" ? "active" : null}

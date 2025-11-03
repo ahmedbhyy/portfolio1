@@ -53,7 +53,7 @@ main section.right-section.flex {
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05)
   );
-  height: 400px;
+  height: 450px;
 }
 
 .light .card {
@@ -78,21 +78,25 @@ main section.right-section.flex {
 
 .card .box {
   padding: 1rem 0.4rem;
+  
 }
 .card .box .title {
   color: var(--title);
   text-transform: capitalize;
+  font-size: 1.5rem;
 }
 .card .box .subtitle {
   color: var(--subtitle);
   font-size: 0.8rem;
   margin-top: 0.7rem;
   margin-bottom: 1.1rem;
-  height: 90px;
+  /* height: 90px; */
 }
 
 .card .box .icons {
   justify-content: space-between;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .card .icon-github {

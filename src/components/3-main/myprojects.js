@@ -143,5 +143,40 @@ export const myprojects = [
      link: "https://ahmedbhy.vercel.app/",
     github:"https://github.com/ahmedbhyy/portfolio",
   },
+
+  {
+    projecttitle: "Intelligent Energy Management System",
+    category: ["AI"],
+    desc: "Developed a system for real-time monitoring of production, storage, and consumption. Optimized energy storage usage, reduced losses, and ensured grid stability.",
+    imgpath: "./energy.png",
+    link: "https://github.com/ahmedbhyy/energy-management",
+    github: "https://github.com/ahmedbhyy/energy-management",
+  },
+  {
+    projecttitle: "Customer Service Chatbot for Insurance (Tunisian Dialect)",
+    category: ["AI"],
+    desc: "Conversational AI chatbot for the insurance sector that understands and responds in the Tunisian dialect. Built a RAG-based system integrating NLP and a custom knowledge base for domain-specific queries.",
+    imgpath: "./chat.webp",
+    link: "https://github.com/ahmedbhyy/energypredection",
+    github: "https://github.com/ahmedbhyy/energypredection",
+  },
+  {
+    projecttitle: "AI Fitness Assistant with Memory Integration",
+    category: ["ai"],
+    desc: "An intelligent fitness assistant offering personalized coaching and progress tracking. Integrated SuperMemory API for long-term contextual recall and deployed as a Telegram bot with adaptive interactions.",
+    imgpath: "./fitness.jpg",
+    link: "https://github.com/ahmedbhyy/ai-fitness-assistant",
+    github: "https://github.com/ahmedbhyy/ai-fitness-assistant",
+  },
+
+  {
+    projecttitle: "Hybrid Learning Platform with Sign Language Recognition",
+    category: ["Computer Vision", "AI"],
+    desc: "Built a hybrid learning platform integrating sign language recognition using YOLOv8 and MediaPipe. Achieved 3rd place in the MAE MutualHack Hackathon.",
+    imgpath: "./brightsteps.png",
+    link: "https://github.com/ihebbettaibe/brightsteps",
+    github: "https://github.com/ihebbettaibe/brightsteps",
+  },
+
   
 ];

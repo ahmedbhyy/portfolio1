@@ -36,20 +36,20 @@ export default function HERO() {
         </p>
         <div className="all-icons flex">
           <a
+            className="icon icon-github"
+            href="https://github.com/ahmedbhyy"
+          ></a>
+          <a
+            className="icon icon-linkedin"
+            href="https://www.linkedin.com/in/ahmed-ben-haj-yahia/"
+          ></a>
+          <a
             className="icon icon-facebook"
             href="https://www.facebook.com/ahmed.belhajyahia/"
           ></a>
           <a
             className="icon icon-instagram"
             href="https://www.instagram.com/ahmedbelhajyahia/"
-          ></a>
-          <a
-            className="icon icon-github"
-            href="https://github.com/ahmedbhyy"
-          ></a>
-          <a
-            className="icon icon-linkedin"
-            href="https://www.linkedin.com/in/ahmed-belhajyahia-33764a292/"
           ></a>
         </div>
       </div>
