@@ -14,7 +14,7 @@ export default function HERO() {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 50 }}
-            src="./ahmed.png"
+            src="./ahmed.JPEG"
             className="avatar"
             alt=""
           />
