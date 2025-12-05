@@ -29,7 +29,7 @@ export const myprojects = [
   category: ["AI", "React"],
   desc: "The system can summarize lecture notes, perform semantic search across course materials, and generate personalized quizzes to enhance learning efficiency.",
   imgpath: "./assistant.png",
-  link: "https://github.com/ahmedbhyy/assistantsupcom",
+  link: "https://drive.google.com/file/d/1i63EoWquk2PTROqLB1mmWH47Fl4GgA-r/view?usp=sharing",
   github: "https://github.com/ahmedbhyy/assistantsupcom"
 },
 
