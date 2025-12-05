@@ -15,13 +15,31 @@ export const myprojects = [
     link: "https://github.com/ahmedbhyy/energy-management",
     github: "https://github.com/ahmedbhyy/energy-management",
   },
+      {
+    projecttitle: "InsightSynth: Autonomous News Intelligence Agent​",
+    category: ["AI"],
+   desc: "Developed an autonomous news-intelligence agent capable of collecting, classifying, and summarizing real-time news using LLMs, AWS services, and advanced data pipelines.",
+
+    imgpath: "./aws.png",
+    link: "https://docs.google.com/presentation/d/1MMcUxHaHb_9_hoasr6nkCeu2VBAOqdSU/edit?usp=sharing&ouid=100576344975673403948&rtpof=true&sd=true",
+    github: "https://docs.google.com/presentation/d/1MMcUxHaHb_9_hoasr6nkCeu2VBAOqdSU/edit?usp=sharing&ouid=100576344975673403948&rtpof=true&sd=true",
+  },
+  {
+  projecttitle: "SupCom Study Assistant",
+  category: ["AI", "React"],
+  desc: "The system can summarize lecture notes, perform semantic search across course materials, and generate personalized quizzes to enhance learning efficiency.",
+  imgpath: "./assistant.png",
+  link: "https://github.com/ahmedbhyy/assistantsupcom",
+  github: "https://github.com/ahmedbhyy/assistantsupcom"
+},
+
   {
     projecttitle: "Customer Service Chatbot for Insurance (Tunisian Dialect)",
     category: ["AI"],
     desc: "Conversational AI chatbot for the insurance sector that understands and responds in the Tunisian dialect. Built a RAG-based system integrating NLP and a custom knowledge base for domain-specific queries.",
     imgpath: "./chat.webp",
-    link: "https://github.com/ahmedbhyy/energypredection",
-    github: "https://github.com/ahmedbhyy/energypredection",
+    link: "https://github.com/youssefrekikk/Insurance-Conversational-Agent-Tunisian-Dialect",
+    github: "https://github.com/youssefrekikk/Insurance-Conversational-Agent-Tunisian-Dialect",
   },
   {
     projecttitle: "AI Fitness Assistant with Memory Integration",
