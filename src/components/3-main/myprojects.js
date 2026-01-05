@@ -15,6 +15,14 @@ export const myprojects = [
     link: "https://github.com/ahmedbhyy/energy-management",
     github: "https://github.com/ahmedbhyy/energy-management",
   },
+  {
+    projecttitle: "Smart Waste Management System",
+    category: ["AI"],
+    desc: "An advanced IoT-based waste management solution designed for Sup'Com (El Ghazala Technopark). Segregating waste collection through Ultrasonic sensors, LoRaWAN communication, and AI-driven route optimization.",
+    imgpath: "./smartwaste.png",
+    link: "https://drive.google.com/file/d/1wheGtUowVlip_Vig3Vre0ekQeP5hGcmm/view?usp=sharing",
+    github: "https://github.com/ahmedbhyy/smartwastemanagment",
+  },
       {
     projecttitle: "InsightSynth: Autonomous News Intelligence Agent​",
     category: ["AI"],
@@ -38,7 +46,7 @@ export const myprojects = [
     category: ["AI"],
     desc: "Conversational AI chatbot for the insurance sector that understands and responds in the Tunisian dialect. Built a RAG-based system integrating NLP and a custom knowledge base for domain-specific queries.",
     imgpath: "./chat.webp",
-    link: "https://github.com/youssefrekikk/Insurance-Conversational-Agent-Tunisian-Dialect",
+    link: "https://drive.google.com/file/d/11JSFcXRkxwJ16ngEGNLfgTlNRfaxeWPp/view?usp=sharing",
     github: "https://github.com/youssefrekikk/Insurance-Conversational-Agent-Tunisian-Dialect",
   },
   {
