@@ -11,10 +11,10 @@ export default function Contactus() {
   return (
     <section className="contactus" id="contact">
       <h1 className="title">
-        <span className="icon-envelope"></span>Contact us
+        <span className="icon-envelope"></span>Contact Me
       </h1>
       <p className="subtitle">
-        Contact us for more information and Get notified when i publish
+        Contact me for more information and Get notified when i publish
         something new.
       </p>
       <div style={{ justifyContent: "space-between" }} className="flex">

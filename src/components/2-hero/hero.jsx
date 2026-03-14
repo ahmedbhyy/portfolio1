@@ -29,10 +29,12 @@ export default function HERO() {
           ICT Engineering Student
         </motion.h1>
         <p className="subtitle">
-          I'm Ahmed Bel haj yahia, an ICT engineering student enthusiast about
-          Mobile development && Web development, that’s why as soon as I got
-          into engineering school, I found myself quickly attracted to Mobile
-          Development.
+          I’m Ahmed Bel Haj Yahia, an ICT engineering student passionate about
+          artificial intelligence, machine learning, and intelligent systems. I
+          have experience in developing AI-powered applications, chatbots, and
+          data-driven solutions. I enjoy creating innovative technologies that
+          solve real-world problems and am eager to contribute to projects in
+          AI, NLP, and intelligent systems.
         </p>
         <div className="all-icons flex">
           <a
