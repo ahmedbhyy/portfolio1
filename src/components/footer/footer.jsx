@@ -21,7 +21,7 @@ export default function footer() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>© 2024 Ahmed Belhajyahia. All rights reserved.</p>
+      <p>© 2026 Ahmed Belhajyahia. All rights reserved.</p>
     </footer>
   );
 }
