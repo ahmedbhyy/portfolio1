@@ -5,7 +5,6 @@ export const myprojects = [
     desc: "Privacy-first web app that analyzes official Instagram, Threads and TikTok data exports entirely in the browser: who doesn't follow back, unfollowers, a yearly Wrapped, login security and ad data. 6 languages (incl. Arabic RTL), 126 SEO pages, deployed on Cloudflare Pages with serverless email reports.",
     imgpath: "./followerschecker.jpg",
     link: "https://followerschecker.com",
-    github: "https://followerschecker.com",
   },
   {
     projecttitle: "AI-Powered Financial News Automation System",

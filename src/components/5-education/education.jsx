@@ -37,8 +37,18 @@ export default function Education() {
                   <h1 className="title">{item.title}</h1>
                   <p className="subtitle">{item.subtitle}</p>
                   <div className="flex icons">
-                    <a className="icon-link" href={item.link}></a>
-                    <a className="link flex" href={item.link}>
+                    <a
+                      className="icon-link"
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></a>
+                    <a
+                      className="link flex"
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       more
                       <span
                         style={{ alignSelf: "end" }}

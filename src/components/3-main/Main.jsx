@@ -87,10 +87,27 @@ export default function Main() {
                   <p className="subtitle">{item.desc}</p>
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
-                      <a className="icon-link" href={item.link}></a>
-                      <a className="icon-github" href={item.github}></a>
+                      <a
+                        className="icon-link"
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      ></a>
+                      {item.github && (
+                        <a
+                          className="icon-github"
+                          href={item.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        ></a>
+                      )}
                     </div>
-                    <a className="link flex" href={item.github}>
+                    <a
+                      className="link flex"
+                      href={item.github || item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       more
                       <span
                         style={{ alignSelf: "end" }}
