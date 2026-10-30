@@ -33,10 +33,19 @@ export default function Header() {
             <a href="#about">About</a>
           </li>
           <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
             <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#awards">Awards</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -79,13 +88,28 @@ export default function Header() {
               </a>
             </li>
             <li>
+              <a href="#experience" onClick={() => setShowModel(false)}>
+                Experience
+              </a>
+            </li>
+            <li>
               <a href="#projects" onClick={() => setShowModel(false)}>
                 Projects
               </a>
             </li>
             <li>
+              <a href="#skills" onClick={() => setShowModel(false)}>
+                Skills
+              </a>
+            </li>
+            <li>
               <a href="#education" onClick={() => setShowModel(false)}>
                 Education
+              </a>
+            </li>
+            <li>
+              <a href="#awards" onClick={() => setShowModel(false)}>
+                Awards
               </a>
             </li>
             <li>

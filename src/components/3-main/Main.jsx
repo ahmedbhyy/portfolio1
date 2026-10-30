@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./main.css";
 import { myprojects } from "./myprojects";
 import { AnimatePresence, motion } from "framer-motion";
 
+const VISIBLE_COUNT = 6;
+
 export default function Main() {
   const [currentActive, setcurrentActive] = useState("all");
   const [arr, setarr] = useState(myprojects);
+  const [showAll, setShowAll] = useState(false);
 
   const handleclick = (buttoncategory) => {
     setcurrentActive(buttoncategory);
+    setShowAll(false);
     const newwarray = myprojects.filter((item) => {
       const secondarray = item.category.filter((myitem) => {
         return myitem === buttoncategory;
@@ -17,12 +21,15 @@ export default function Main() {
     });
     setarr(newwarray);
   };
+
+  const visibleProjects = showAll ? arr : arr.slice(0, VISIBLE_COUNT);
   return (
     <main className="flex">
       <section className="flex left-section" id="projects">
         <button
           onClick={() => {
             setcurrentActive("all");
+            setShowAll(false);
             setarr(myprojects);
           }}
           className={currentActive === "all" ? "active" : null}
@@ -64,7 +71,7 @@ export default function Main() {
       </section>
       <section className="flex right-section">
         <AnimatePresence>
-          {arr.map((item) => {
+          {visibleProjects.map((item) => {
             return (
               <motion.article
                 layout
@@ -74,13 +81,8 @@ export default function Main() {
                 key={item.imgpath}
                 className="card"
               >
-                <img
-                  width={270}
-                  src={item.imgpath}
-                  alt=""
-                  style={{ objectFit: "contain" }}
-                />
-                <div style={{ width: "270px" }} className="box">
+                <img src={item.imgpath} alt="" />
+                <div className="box">
                   <h1 className="title">{item.projecttitle}</h1>
                   <p className="subtitle">{item.desc}</p>
                   <div className="flex icons">
@@ -101,6 +103,18 @@ export default function Main() {
             );
           })}
         </AnimatePresence>
+        {arr.length > VISIBLE_COUNT && (
+          <button
+            className="show-all-btn"
+            onClick={() => setShowAll((prev) => !prev)}
+          >
+            {showAll ? "Show less" : `Show all ${arr.length} projects`}
+            <span
+              className="icon-keyboard_arrow_up"
+              style={{ rotate: showAll ? "0deg" : "180deg" }}
+            ></span>
+          </button>
+        )}
       </section>
     </main>
   );

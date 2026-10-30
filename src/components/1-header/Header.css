@@ -1,18 +1,18 @@
 header ul.flex {
-  gap: 16px;
+  gap: 13px;
 }
 
 header ul li a {
   color: var(--title);
   opacity: 0.9;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 header ul li a:hover {
   color: var(--blue);
   opacity: 1;
-  font-size: 0.9rem;
   font-weight: 500;
 }
 
@@ -21,9 +21,12 @@ header button {
 }
 header.flex {
   justify-content: space-between;
-  padding: 0 2.4rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1.1rem 2.4rem 0.9rem;
+  margin-bottom: 0.6rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--secondary);
 }
 
 header.flex nav {
@@ -140,7 +143,7 @@ header .fixed ul.modal li:first-child {
   padding-top: 0.2rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   header.flex nav {
     display: none;
   }

@@ -11,6 +11,11 @@ html {
   letter-spacing: 0.1px;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1, h2, h3, p {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 * {
   margin: 0;
@@ -24,7 +29,10 @@ html {
   --subtitle: rgb(161 161 170);
   --bgHeader: rgb(39 39 42);
   --blue: rgb(93, 188, 252);
+  --blue-soft: rgba(93, 188, 252, 0.12);
   --icon-hover: #d4d4d8;
+  --accent-gradient: linear-gradient(120deg, rgb(93, 188, 252), rgb(129, 140, 248));
+  --card-bg: rgba(255, 255, 255, 0.025);
 }
 .container {
   border: 2px solid var(--border);
@@ -36,6 +44,7 @@ html {
 }
 body {
   background-color: var(--primary);
+  overflow-x: hidden;
   /*color: #fff;*/
 }
 
@@ -47,7 +56,101 @@ body {
   --subtitle: rgb(82 82 91);
   --bgHeader: rgb(253 253 253);
   --blue: rgb(0, 149, 246);
+  --blue-soft: rgba(0, 149, 246, 0.08);
   --icon-hover: #333;
+  --card-bg: rgba(0, 0, 0, 0.015);
+}
+
+/* shared section heading pattern */
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+.section-eyebrow::before {
+  content: "";
+  width: 1.4rem;
+  height: 2px;
+  background: var(--accent-gradient);
+  border-radius: 2px;
+}
+
+/* inline svg icons used as section glyphs, sized to match the icomoon icon set */
+.svgicon {
+  width: 0.85em;
+  height: 0.85em;
+  display: inline-block;
+  vertical-align: -0.1em;
+  margin-right: 0.7rem;
+  stroke: var(--subtitle);
+  flex-shrink: 0;
+}
+
+/* fluid section heading used by Experience / Skills / Awards / Education / Contact */
+.section-title {
+  font-size: clamp(1.5rem, 4.5vw, 2.1rem);
+  color: var(--title);
+  margin-bottom: 0.8rem;
+  overflow-wrap: break-word;
+}
+
+/* pill badge, e.g. hero availability status */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background-color: var(--blue-soft);
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  color: var(--blue);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1.1rem;
+}
+.badge-pill .dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background-color: rgb(74, 222, 128);
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.25);
+}
+
+/* skill / tech tag chip */
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.85rem;
+  border-radius: 7px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--subtitle);
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: 0.25s;
+}
+.tag-chip:hover {
+  color: var(--title);
+  border-color: var(--blue);
+  transform: translateY(-2px);
+}
+
+/* generic glass-style content card used by the new sections */
+.panel-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: var(--card-bg);
+  padding: 1.6rem;
+  transition: 0.3s;
+}
+.panel-card:hover {
+  border-color: rgba(93, 188, 252, 0.4);
 }
 
 .divider {

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./education.css";
 import { AnimatePresence, motion } from "framer-motion";
 import { educationlist } from "./education";
@@ -33,8 +32,8 @@ export default function Education() {
                 key={item.imgpath}
                 className="card"
               >
-                <img width={270} src={item.imgpath} alt="" />
-                <div style={{ width: "270px" }} className="box">
+                <img src={item.imgpath} alt="" />
+                <div className="box">
                   <h1 className="title">{item.title}</h1>
                   <p className="subtitle">{item.subtitle}</p>
                   <div className="flex icons">

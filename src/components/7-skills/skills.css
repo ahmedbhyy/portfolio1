@@ -1,0 +1,49 @@
+section.skills .svgicon {
+  color: var(--subtitle);
+}
+section.skills > .subtitle {
+  color: var(--subtitle);
+  line-height: 1.65rem;
+  margin-bottom: 2.2rem;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.1rem;
+}
+
+.skill-card {
+  padding: 1.3rem 1.4rem;
+}
+
+.skill-category {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--title);
+  margin-bottom: 0.9rem;
+}
+
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.languages-row {
+  margin-top: 2.2rem;
+}
+.lang-chip {
+  color: var(--title);
+}
+.lang-level {
+  color: var(--subtitle);
+  font-weight: 400;
+  margin-left: 0.3em;
+}
+
+@media (max-width: 600px) {
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+}

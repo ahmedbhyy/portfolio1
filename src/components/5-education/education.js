@@ -1,14 +1,13 @@
 export const educationlist = [
-  
-    {
-        title: "ICT engineer , SUP'COM",
-        subtitle: "Present",
+  {
+        title: "Telecommunications Engineering, SUP'COM",
+        subtitle: "Sept 2023 – Sept 2026 · Signal Processing, AI, Cloud Computing, IoT, Networking",
         imgpath: "./supcom.png",
         link: "https://www.supcom.tn/",
   },
   {
-        title: "Diploma in Maths and Physics",
-        subtitle: "Preparatory institure of pre-engineering of Tunis 2023, Ranked 140/1800 in the national engineering selective exams",
+        title: "Diploma in Maths and Physics, IPEIT",
+        subtitle: "Preparatory Institute for Engineering Studies of Tunis · Sept 2021 – June 2023 · National Rank 147/1800",
         imgpath: "./ipeit.png",
         link: "https://fr.wikipedia.org/wiki/Institut_pr%C3%A9paratoire_aux_%C3%A9tudes_d%27ing%C3%A9nieurs_de_Tunis",
   },

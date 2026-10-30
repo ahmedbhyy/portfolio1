@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 
 export default function footer() {
@@ -12,16 +11,25 @@ export default function footer() {
           <a href="#about">About</a>
         </li>
         <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
           <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
         </li>
         <li>
           <a href="#education">Education</a>
         </li>
         <li>
+          <a href="#awards">Awards</a>
+        </li>
+        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>© 2026 Ahmed Belhajyahia. All rights reserved.</p>
+      <p>© 2026 Ahmed Ben Haj Yahia. All rights reserved.</p>
     </footer>
   );
 }

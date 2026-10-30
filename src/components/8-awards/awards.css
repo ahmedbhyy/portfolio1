@@ -1,0 +1,72 @@
+section.awards .svgicon {
+  color: var(--subtitle);
+}
+section.awards > .subtitle {
+  color: var(--subtitle);
+  line-height: 1.65rem;
+  margin-bottom: 2.2rem;
+}
+
+.award-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.1rem;
+  margin-bottom: 2.4rem;
+}
+
+.award-card {
+  padding: 1.3rem 1.4rem;
+}
+
+.place-chip {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--blue);
+  background-color: var(--blue-soft);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.award-title {
+  font-size: 1.05rem;
+  color: var(--title);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.award-desc {
+  font-size: 0.85rem;
+  color: var(--subtitle);
+  line-height: 1.5rem;
+}
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.1rem;
+}
+
+.leadership-item {
+  border-left: 2px solid var(--border);
+  padding-left: 1rem;
+}
+
+.leadership-role {
+  color: var(--title);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.leadership-org {
+  color: var(--subtitle);
+  font-weight: 400;
+}
+.leadership-desc {
+  color: var(--subtitle);
+  font-size: 0.84rem;
+  line-height: 1.5rem;
+  margin-top: 0.3rem;
+}

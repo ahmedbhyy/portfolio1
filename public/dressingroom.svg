@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241b3f"/>
+      <stop offset="100%" stop-color="#101014"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5dbcfc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g2)"/>
+  <g fill="none" stroke="url(#accent2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 55 170 80v110h60V80z"/>
+    <path d="M170 90 140 100l10 30 20-8"/>
+    <path d="M230 90 260 100l-10 30-20-8"/>
+    <circle cx="200" cy="40" r="14"/>
+    <rect x="150" y="150" width="100" height="40" rx="4" stroke-dasharray="4 5"/>
+  </g>
+  <g opacity="0.6" stroke="url(#accent2)" stroke-width="1.4" fill="none">
+    <rect x="120" y="60" width="160" height="170" rx="14"/>
+  </g>
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Virtual Dressing Room</text>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="13" fill="#a1a1aa">AR try-on · Computer vision</text>
+</svg>

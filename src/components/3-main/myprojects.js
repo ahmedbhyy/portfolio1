@@ -1,4 +1,36 @@
 export const myprojects = [
+  {
+    projecttitle: "FollowersChecker",
+    category: ["css"],
+    desc: "Privacy-first web app that analyzes official Instagram, Threads and TikTok data exports entirely in the browser: who doesn't follow back, unfollowers, a yearly Wrapped, login security and ad data. 6 languages (incl. Arabic RTL), 126 SEO pages, deployed on Cloudflare Pages with serverless email reports.",
+    imgpath: "./followerschecker.jpg",
+    link: "https://followerschecker.com",
+    github: "https://followerschecker.com",
+  },
+  {
+    projecttitle: "AI-Powered Financial News Automation System",
+    category: ["AI"],
+    desc: "Multi-agent system built with CrewAI that fetches market news, summarizes it, translates it to Arabic, and emails automated reports using NewsAPI, Brevo and OpenRouter LLMs.",
+    imgpath: "./financialnews.svg",
+    link: "https://github.com/ahmedbhyy",
+    github: "https://github.com/ahmedbhyy",
+  },
+  {
+    projecttitle: "AI-Powered Virtual Dressing Room",
+    category: ["AI"],
+    desc: "Mobile app using computer vision for virtual try-on with augmented reality, powered by deep learning models for image retrieval and pose estimation.",
+    imgpath: "./dressingroom.svg",
+    link: "https://github.com/ahmedbhyy",
+    github: "https://github.com/ahmedbhyy",
+  },
+  {
+    projecttitle: "General-Purpose ERP System",
+    category: ["react"],
+    desc: "Scalable, modular ERP system covering core business functions including sales, finance, inventory management, and human resources.",
+    imgpath: "./erp.svg",
+    link: "https://github.com/ahmedbhyy",
+    github: "https://github.com/ahmedbhyy",
+  },
    {
     projecttitle: "Event Ease App",
     category: ["flutter"],
@@ -34,7 +66,7 @@ export const myprojects = [
   },
   {
   projecttitle: "SupCom Study Assistant",
-  category: ["AI", "React"],
+  category: ["AI", "react"],
   desc: "The system can summarize lecture notes, perform semantic search across course materials, and generate personalized quizzes to enhance learning efficiency.",
   imgpath: "./assistant.png",
   link: "https://drive.google.com/file/d/1i63EoWquk2PTROqLB1mmWH47Fl4GgA-r/view?usp=sharing",
@@ -51,7 +83,7 @@ export const myprojects = [
   },
   {
     projecttitle: "AI Fitness Assistant with Memory Integration",
-    category: ["ai"],
+    category: ["AI"],
     desc: "An intelligent fitness assistant offering personalized coaching and progress tracking. Integrated SuperMemory API for long-term contextual recall and deployed as a Telegram bot with adaptive interactions.",
     imgpath: "./fitness.jpg",
     link: "https://github.com/ahmedbhyy/ai-fitness-assistant",
@@ -110,7 +142,7 @@ export const myprojects = [
     category: ["react"],
     desc: "I developed a website for Cocos Café, designed to showcase their menu in an appealing and user-friendly way, allowing customers to easily explore their offerings online.",
     imgpath: "./cocos.png",
-    link: "https://cocos.tn/",
+    link: "https://coffeeshop-2fd18.web.app/",
     github:"https://github.com/sanaanidhal/Cocos-react",
   },
   {
@@ -126,14 +158,14 @@ export const myprojects = [
     category: ["css"],
     desc: "Developed the official website for Errayen, a real estate company, highlighting their properties and services with a user-friendly design.",
     imgpath: "./errayensite.png",
-     link: "https://errayen.com/",
+     link: "https://errayen-5ced1.web.app/",
     github:"https://github.com/sanaanidhal/Errayen-vite",
   },{
     projecttitle: "Maison Jerbi",
     category: ["css"],
     desc: "I created the official website for Maison Jerbi, a charming guest house located in Henchir Goret, Nabeul.",
     imgpath: "./maisonjerbi.png",
-     link: "https://maisonjerbi.com/",
+     link: "https://maisonjerbi-6c2bf.web.app/",
     github:"https://github.com/ahmedbhyy/maisonjerbi",
   },
   {
@@ -184,15 +216,6 @@ export const myprojects = [
      link: "https://drive.google.com/file/d/1ZlgV35_nlPbuYP7IHbfYVyC0dwqwFyRb/view",
     github:"https://github.com/ahmedbhyy/bankpfe",
   },
-  {
-    projecttitle: "React Portfolio",
-    category: ["react"],
-    desc: "Welcome to my portfolio, a dynamic and interactive showcase of my skills and projects as a web developer. Built using React and styled with CSS, this portfolio highlights my proficiency in modern web development technologies.",
-    imgpath: "./portfolio.png",
-     link: "https://myportfolio-73fb8.web.app/",
-    github:"https://github.com/ahmedbhyy/portfolio1",
-  },
-
   {
     projecttitle: "Portfolio",
     category: ["css"],

@@ -3,6 +3,9 @@ import Header from "./components/1-header/Header";
 import Main from "./components/3-main/Main";
 import Contactus from "./components/4-contact/contact";
 import Education from "./components/5-education/education.jsx";
+import Experience from "./components/6-experience/Experience.jsx";
+import Skills from "./components/7-skills/Skills.jsx";
+import Awards from "./components/8-awards/Awards.jsx";
 
 import Footer from "./components/footer/footer";
 import { useEffect } from "react";
@@ -25,9 +28,15 @@ function App() {
 
       <HERO />
       <div className="divider" />
+      <Experience />
+      <div className="divider" />
       <Main />
       <div className="divider" />
+      <Skills />
+      <div className="divider" />
       <Education />
+      <div className="divider" />
+      <Awards />
       <div className="divider" />
       <Contactus />
       <div className="divider" />

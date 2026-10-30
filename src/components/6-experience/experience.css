@@ -1,0 +1,103 @@
+section.experience .svgicon {
+  color: var(--subtitle);
+}
+section.experience > .subtitle {
+  color: var(--subtitle);
+  line-height: 1.65rem;
+  margin-bottom: 2.2rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+.timeline-dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 4px var(--blue-soft);
+}
+.timeline-line {
+  width: 2px;
+  flex-grow: 1;
+  min-height: 2.4rem;
+  background-color: var(--border);
+  margin: 0.4rem 0;
+}
+
+.timeline-card {
+  flex-grow: 1;
+  margin-bottom: 1.8rem;
+}
+
+.timeline-head {
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.timeline-card .role {
+  font-size: 1.15rem;
+  color: var(--title);
+  font-weight: 600;
+}
+.timeline-card .company {
+  font-size: 0.88rem;
+  color: var(--blue);
+  margin-top: 0.2rem;
+}
+a.company {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+a.company:hover {
+  text-decoration: underline;
+}
+a.company .icon-link {
+  font-size: 0.72rem;
+  opacity: 0.8;
+}
+.timeline-card .period {
+  font-size: 0.78rem;
+  color: var(--subtitle);
+  white-space: nowrap;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.timeline-card .points {
+  padding-left: 1.1rem;
+}
+.timeline-card .points li {
+  list-style: disc;
+  color: var(--subtitle);
+  font-size: 0.86rem;
+  line-height: 1.55rem;
+}
+
+@media (max-width: 600px) {
+  .timeline-item {
+    gap: 0.8rem;
+  }
+  .timeline-card .period {
+    font-size: 0.72rem;
+  }
+}

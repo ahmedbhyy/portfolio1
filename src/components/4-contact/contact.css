@@ -10,13 +10,36 @@ section {
 }
 
 section.contactus .title {
-  font-size: 2.1rem;
+  font-size: clamp(1.5rem, 4.5vw, 2.1rem);
   color: var(--title);
   margin-bottom: 1rem;
+  overflow-wrap: break-word;
 }
 section.contactus .subtitle {
-  color: var(--subtitle);  
+  color: var(--subtitle);
   line-height: 1.65rem;
+}
+
+.contact-info {
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin: 1.6rem 0 2rem;
+}
+.contact-info-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--subtitle);
+  font-size: 0.86rem;
+}
+.contact-info-item .svgicon {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 0;
+  color: var(--blue);
+}
+a.contact-info-item:hover {
+  color: var(--title);
 }
 section.contactus label {
   color: var(--subtitle);
